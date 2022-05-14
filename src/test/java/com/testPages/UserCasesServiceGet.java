@@ -3,6 +3,8 @@
  */
 package com.testPages;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -90,7 +92,7 @@ public class UserCasesServiceGet extends TestBase {
 		// To check for sub string presence get the Response body as a String.
 		// Do a String.contains
 		String bodyAsString = body.asString();
-		Assert.assertEquals(bodyAsString.contains("CLOSED"), true);
+		AssertJUnit.assertEquals(bodyAsString.contains("CLOSED"), true);
 
 	}
 	
@@ -107,7 +109,7 @@ public class UserCasesServiceGet extends TestBase {
 		// To check for sub string presence get the Response body as a String.
 		// Do a String.contains
 		String bodyAsString = body.asString();
-		Assert.assertEquals(bodyAsString.contains("OPEN"), true);
+		AssertJUnit.assertEquals(bodyAsString.contains("OPEN"), true);
 	
 	}
 	

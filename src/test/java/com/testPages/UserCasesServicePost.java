@@ -3,6 +3,7 @@
  */
 package com.testPages;
 
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
