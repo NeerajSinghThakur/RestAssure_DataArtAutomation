@@ -40,3 +40,6 @@ Test Case in under src/test/java/com/testPages
 Two way can run automation suits 
 1. Directing with class and run with testNG
 2. Run with TestNG.XML file 
+3. Reporting part is using Extent Report like below 
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/49934702/168432480-7e46fe34-8efe-4ddd-91fb-5d85bdf3bcb9.png">
+
