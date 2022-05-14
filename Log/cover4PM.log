@@ -1,0 +1,21 @@
+2022-05-14 16:41:07,380 - utilities.TestBase -INFO - ***** Test case execution of Class com.testPages.UserCasesServiceGetstarted******
+2022-05-14 16:41:07,394 - utilities.TestBase -INFO - accessingUsers test started
+2022-05-14 16:41:08,445 - utilities.TestBase -INFO - accessingClosedCases test started
+2022-05-14 16:41:08,515 - utilities.TestBase -INFO - Message: Status code is : 200
+2022-05-14 16:41:08,518 - utilities.TestBase -INFO - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
+2022-05-14 16:41:08,573 - utilities.TestBase -INFO - accessingOpenCases test started
+2022-05-14 16:41:08,610 - utilities.TestBase -INFO - Message: Status code is : 200
+2022-05-14 16:41:08,611 - utilities.TestBase -INFO - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
+2022-05-14 16:41:08,616 - utilities.TestBase -INFO - accessingUsersByID test started
+2022-05-14 16:41:08,644 - utilities.TestBase -INFO - Message: Status code is : 200
+2022-05-14 16:41:08,645 - utilities.TestBase -INFO - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
+2022-05-14 16:41:08,649 - utilities.TestBase -INFO - accessingUsersCaseByID test started
+2022-05-14 16:41:08,680 - utilities.TestBase -INFO - Message: Status code is : 200
+2022-05-14 16:41:08,681 - utilities.TestBase -INFO - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
+2022-05-14 16:41:08,684 - utilities.TestBase -INFO - accessingUsersCases test started
+2022-05-14 16:41:08,710 - utilities.TestBase -INFO - Message: Status code is : 200
+2022-05-14 16:41:08,710 - utilities.TestBase -INFO - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
+2022-05-14 16:41:08,713 - utilities.TestBase -INFO - accessingAllClosedCases test started
+2022-05-14 16:41:08,734 - utilities.TestBase -INFO - accessingAllOpenCases test started
+2022-05-14 16:41:08,752 - utilities.TestBase -INFO - ***************All test cases of Class com.testPages.UserCasesServiceGet executed******
+2022-05-14 16:41:10,047 - utilities.TestBase -INFO - *********** All test classes run. Extent report generated and put in : /Users/nthakur/Downloads/QA/RestAPIAutomation\extentReports .Quitting browser**********

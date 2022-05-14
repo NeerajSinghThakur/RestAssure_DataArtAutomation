@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Status code is : 200]]>
+    </line>
+    <line>
+      <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+    </line>
+    <line>
+      <![CDATA[Status code is : 200]]>
+    </line>
+    <line>
+      <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+    </line>
+    <line>
+      <![CDATA[Status code is : 200]]>
+    </line>
+    <line>
+      <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+    </line>
+    <line>
+      <![CDATA[Status code is : 200]]>
+    </line>
+    <line>
+      <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+    </line>
+    <line>
+      <![CDATA[Status code is : 200]]>
+    </line>
+    <line>
+      <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1386" started-at="2022-05-14T16:41:07 CEST" finished-at="2022-05-14T16:41:08 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1386" started-at="2022-05-14T16:41:07 CEST" finished-at="2022-05-14T16:41:08 CEST">
+      <class name="com.testPages.UserCasesServiceGet">
+        <test-method status="PASS" signature="driverAndExtentReportSetup()[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="6" started-at="2022-05-14T16:41:07 CEST" finished-at="2022-05-14T16:41:07 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="thisClassTestStarted()[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="thisClassTestStarted" is-config="true" duration-ms="3" started-at="2022-05-14T16:41:07 CEST" finished-at="2022-05-14T16:41:07 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thisClassTestStarted -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="4" started-at="2022-05-14T16:41:07 CEST" finished-at="2022-05-14T16:41:07 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.UserCasesServiceGet.accessingUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="accessingUsers()[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="accessingUsers" duration-ms="1043" started-at="2022-05-14T16:41:07 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessingUsers -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessingUsers status=SUCCESS method=UserCasesServiceGet.accessingUsers()[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.UserCasesServiceGet.accessingClosedCases()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="accessingClosedCases()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="accessingClosedCases" duration-ms="125" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code is : 200]]>
+            </line>
+            <line>
+              <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessingClosedCases -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessingClosedCases status=SUCCESS method=UserCasesServiceGet.accessingClosedCases()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb] output=Status code is : 200]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="0" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.UserCasesServiceGet.accessingOpenCases()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="accessingOpenCases()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="accessingOpenCases" duration-ms="40" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code is : 200]]>
+            </line>
+            <line>
+              <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessingOpenCases -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessingOpenCases status=SUCCESS method=UserCasesServiceGet.accessingOpenCases()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb] output=Status code is : 200]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.UserCasesServiceGet.accessingUsersByID()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="accessingUsersByID()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="accessingUsersByID" duration-ms="30" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code is : 200]]>
+            </line>
+            <line>
+              <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessingUsersByID -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessingUsersByID status=SUCCESS method=UserCasesServiceGet.accessingUsersByID()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb] output=Status code is : 200]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.UserCasesServiceGet.accessingUsersCaseByID()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="accessingUsersCaseByID()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="accessingUsersCaseByID" duration-ms="33" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code is : 200]]>
+            </line>
+            <line>
+              <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessingUsersCaseByID -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessingUsersCaseByID status=SUCCESS method=UserCasesServiceGet.accessingUsersCaseByID()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb] output=Status code is : 200]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="0" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.UserCasesServiceGet.accessingUsersCases()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="accessingUsersCases()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="accessingUsersCases" duration-ms="26" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code is : 200]]>
+            </line>
+            <line>
+              <![CDATA[Actual string: [ 200 ] is matching with Expected string: [ 200 ]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessingUsersCases -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessingUsersCases status=SUCCESS method=UserCasesServiceGet.accessingUsersCases()[pri:1, instance:com.testPages.UserCasesServiceGet@397fbdb] output=Status code is : 200]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.UserCasesServiceGet.accessingAllClosedCases()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="accessingAllClosedCases()[pri:2, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="accessingAllClosedCases" duration-ms="18" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessingAllClosedCases -->
+        <test-method status="PASS" signature="driverAndExtentReportSetup(java.lang.reflect.Method)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="driverAndExtentReportSetup" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testPages.UserCasesServiceGet.accessingAllOpenCases()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverAndExtentReportSetup -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessingAllClosedCases status=SUCCESS method=UserCasesServiceGet.accessingAllClosedCases()[pri:2, instance:com.testPages.UserCasesServiceGet@397fbdb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="accessingAllOpenCases()[pri:2, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="accessingAllOpenCases" duration-ms="15" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessingAllOpenCases -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessingAllOpenCases status=SUCCESS method=UserCasesServiceGet.accessingAllOpenCases()[pri:2, instance:com.testPages.UserCasesServiceGet@397fbdb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="endTest" is-config="true" duration-ms="1" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPages.UserCasesServiceGet@397fbdb]" name="tearDown" is-config="true" duration-ms="1273" started-at="2022-05-14T16:41:08 CEST" finished-at="2022-05-14T16:41:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testPages.UserCasesServiceGet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
