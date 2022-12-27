@@ -1,25 +1,6 @@
-2022-05-14 16:52:50,059 [main] INFO utilities.TestBase - ***** Test case execution of Class com.testPages.UserCasesServicePoststarted******
-2022-05-14 16:52:50,074 [main] INFO utilities.TestBase - CreatingANewUser test started
-2022-05-14 16:52:51,403 [main] INFO utilities.TestBase - CreatingexistenceUser test started
-2022-05-14 16:52:51,428 [main] INFO utilities.TestBase - ***************All test cases of Class com.testPages.UserCasesServicePost executed******
-2022-05-14 16:52:51,429 [main] INFO utilities.TestBase - ***** Test case execution of Class com.testPages.UserCasesServiceGetstarted******
-2022-05-14 16:52:51,431 [main] INFO utilities.TestBase - accessingUsers test started
-2022-05-14 16:52:51,463 [main] INFO utilities.TestBase - accessingClosedCases test started
-2022-05-14 16:52:51,506 [main] INFO utilities.TestBase - Message: Status code is : 200
-2022-05-14 16:52:51,510 [main] INFO utilities.TestBase - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
-2022-05-14 16:52:51,571 [main] INFO utilities.TestBase - accessingOpenCases test started
-2022-05-14 16:52:51,628 [main] INFO utilities.TestBase - Message: Status code is : 200
-2022-05-14 16:52:51,629 [main] INFO utilities.TestBase - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
-2022-05-14 16:52:51,636 [main] INFO utilities.TestBase - accessingUsersByID test started
-2022-05-14 16:52:51,674 [main] INFO utilities.TestBase - Message: Status code is : 200
-2022-05-14 16:52:51,675 [main] INFO utilities.TestBase - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
-2022-05-14 16:52:51,678 [main] INFO utilities.TestBase - accessingUsersCaseByID test started
-2022-05-14 16:52:51,729 [main] INFO utilities.TestBase - Message: Status code is : 200
-2022-05-14 16:52:51,730 [main] INFO utilities.TestBase - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
-2022-05-14 16:52:51,733 [main] INFO utilities.TestBase - accessingUsersCases test started
-2022-05-14 16:52:51,765 [main] INFO utilities.TestBase - Message: Status code is : 200
-2022-05-14 16:52:51,766 [main] INFO utilities.TestBase - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
-2022-05-14 16:52:51,768 [main] INFO utilities.TestBase - accessingAllClosedCases test started
-2022-05-14 16:52:51,801 [main] INFO utilities.TestBase - accessingAllOpenCases test started
-2022-05-14 16:52:51,846 [main] INFO utilities.TestBase - ***************All test cases of Class com.testPages.UserCasesServiceGet executed******
-2022-05-14 16:52:53,157 [main] INFO utilities.TestBase - *********** All test classes run. Extent report generated and put in : /Users/nthakur/Downloads/QA/RestAPIAutomation\extentReports .Quitting browser**********
+2022-12-27 15:48:15,632 [main] INFO utilities.TestBase - ***** Test case execution of Class com.testPages.UserCasesServiceGetstarted******
+2022-12-27 15:48:15,641 [main] INFO utilities.TestBase - accessingUsersByID test started
+2022-12-27 15:48:16,539 [main] INFO utilities.TestBase - Message: Status code is : 200
+2022-12-27 15:48:16,541 [main] INFO utilities.TestBase - Message: Actual string: [ 200 ] is matching with Expected string: [ 200 ]
+2022-12-27 15:48:16,598 [main] INFO utilities.TestBase - ***************All test cases of Class com.testPages.UserCasesServiceGet executed******
+2022-12-27 15:48:17,823 [main] INFO utilities.TestBase - *********** All test classes run. Extent report generated and put in : D:\Automation JavaScript\RestAssure_QA\extentReports .Quitting browser**********

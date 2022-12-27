@@ -1,1 +1,15 @@
 /target/
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+
+#testng
+test-output
+extent-test-output

@@ -3,6 +3,7 @@
  */
 package com.testPages;
 
+import com.relevantcodes.extentreports.LogStatus;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.Assert;
@@ -30,7 +31,7 @@ public class UserCasesServiceGet extends TestBase {
 	 @Test(enabled = true)
 	public void accessingUsers() {
 
-		Response resp = RestAssured.given().get("http://localhost:8080/users");
+		Response resp = RestAssured.given().get("https://demo.guru99.com/V4/sinkministatement.php?CUSTOMER_ID=68195&PASSWORD=1234!&Account_No=1");
 		System.out.println("........."+System.getProperty("user.dir"));
 
 	}
@@ -38,13 +39,23 @@ public class UserCasesServiceGet extends TestBase {
 	// https://stackoverflow.com/questions/52208765/rest-assured-how-to-pass-object-in-jsonobject-body
 	@Test(priority = 1, enabled = true)
 	public void accessingUsersByID() {
-		
-		RestAssured.given().get("http://localhost:8080/users/2").then().statusCode(200);
-		Response resp = RestAssured.given().get("http://localhost:8080/users/2");
+		eTest.log(LogStatus.FAIL, "has passed.");
+		//RestAssured.given().get("http://localhost:3000/posts").then().statusCode(200);
+		Response resp = RestAssured.given().get("http://localhost:3000/posts");
 		Utils.assertIfEqual(Utils.getStatusCode(resp),200);
 		//resp.then().assertThat().statusLine(isEmptyOrNullString());
 		resp.getBody().prettyPeek();
+		eTest.log(LogStatus.PASS, " has passed.");
 		}
+	@Test(priority = 1, enabled = true)
+	public void test1() {
+
+		//RestAssured.given().get("http://localhost:3000/posts").then().statusCode(200);
+		Response resp = RestAssured.given().get("http://localhost:3000/posts");
+		Utils.assertIfEqual(Utils.getStatusCode(resp),200);
+		//resp.then().assertThat().statusLine(isEmptyOrNullString());
+		resp.getBody().prettyPeek();
+	}
 	@Test(priority = 1, enabled = true)
 	public void accessingUsersCases() {
 		
@@ -56,9 +67,7 @@ public class UserCasesServiceGet extends TestBase {
 
 	@Test(priority = 1, enabled = true)
 	public void accessingOpenCases() {
-		
-		RestAssured.given().get("http://localhost:8080/users/2/cases/status/OPEN").then().statusCode(200);
-		Response resp = RestAssured.given().get("http://localhost:8080/users/2/cases/status/OPEN");
+			Response resp = RestAssured.given().get("http://localhost:3000/comments");
 		Utils.assertIfEqual(Utils.getStatusCode(resp),200);
 		resp.getBody().prettyPeek();
 	}
